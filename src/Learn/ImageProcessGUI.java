@@ -5,11 +5,9 @@
  */
 package Learn;
 
-import java.awt.BorderLayout;
 import java.io.File;
 import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
-import javax.swing.JLabel;
 
 /**
  *
@@ -49,8 +47,6 @@ public class ImageProcessGUI extends javax.swing.JFrame {
         setResizable(false);
 
         jPanelLoadedImage.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Loaded Image", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP));
-
-        jLabelImage.setText("jLabel1");
 
         javax.swing.GroupLayout jPanelLoadedImageLayout = new javax.swing.GroupLayout(jPanelLoadedImage);
         jPanelLoadedImage.setLayout(jPanelLoadedImageLayout);
@@ -98,7 +94,7 @@ public class ImageProcessGUI extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanelLoadedImage, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(357, Short.MAX_VALUE))
+                .addContainerGap(398, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
