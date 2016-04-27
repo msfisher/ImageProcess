@@ -16,6 +16,8 @@ import javax.swing.JFileChooser;
 public class ImageProcessGUI extends javax.swing.JFrame {
     public LoadedImage myImage;
     //public JLabel imageLabel;
+    
+    //Addinmg a comment
 
     /**
      * Creates new form ImageProcessGUI
